@@ -15,14 +15,14 @@ This project aims to select the best classifier algorithm than can predict wheth
 * The categorical columns has been encoded accordingly
 
 
-# Features Selection
+# Features
 * Chi-square method was used to analyse the importance of each categorical columns with respect to the diabetes class column
   | Features             | P-Value|
   | -------------        |:------:|
   | Gender               | 0.0    |
   | Polyuria             | 0.0    |
   | Polydipsia           | 0.0    |
-  | Sudden Weight Loss   | 0.0
+  | Sudden Weight Loss   | 0.0    |
   | Weakness             | 0.002  |
   | Polyphagia           | 0.0    |
   | Genital Thrush       | 0.01   |
@@ -34,6 +34,7 @@ This project aims to select the best classifier algorithm than can predict wheth
   | Muscle Stiffness     | 0.1    |
   | Alopecia             | 0.0    |
   | Obesity              | 0.25   | 
+ * Itching,
   
   
   
