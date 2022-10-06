@@ -13,4 +13,31 @@ This project aims to select the best classifier algorithm than can predict wheth
 # Exploratory Data Analysis
 * There are no missing values nor duplicates found
 * The categorical columns has been encoded accordingly
-* Chi-square method was used to analyse the importance of each columns 
+
+
+# Features Selection
+* Chi-square method was used to analyse the importance of each categorical columns with respect to the diabetes class column
+  | Features             | P-Value|
+  | -------------        |:------:|
+  | Gender               | 0.0    |
+  | Polyuria             | 0.0    |
+  | Polydipsia           | 0.0    |
+  | Sudden Weight Loss   | 0.0
+  | Weakness             | 0.002  |
+  | Polyphagia           | 0.0    |
+  | Genital Thrush       | 0.01   |
+  | Visual Blurring      | 0.0002 |
+  | Itching              | 0.7    |
+  | Irritability         | 0.0    |
+  | Delayed Healing      | 0.5    |
+  | Partial Paresis      | 0.0    |
+  | Muscle Stiffness     | 0.1    |
+  | Alopecia             | 0.0    |
+  | Obesity              | 0.25   | 
+  
+  
+  
+  
+  
+  
+  
