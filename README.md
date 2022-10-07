@@ -35,7 +35,7 @@ This project aims to select the best classifier algorithm than can predict wheth
   | Alopecia             | 0.0    |
   | Obesity              | 0.25   | 
  
- ![age](age-class.png)
+
  
   
   
