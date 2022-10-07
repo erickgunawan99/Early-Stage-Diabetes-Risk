@@ -53,11 +53,12 @@ This project aims to select the best classifier algorithm than can predict wheth
  
  # Model Evaluation (Random Forest)
  The random forest classifier model was fit into the dataset without feature elimination and with feature elimination involved to compare the result.
+|      With All Features        |
+| ---------------------------   |
 | True Positive: 70             |
 | True Negative: 33             |
 | False Positive: 0             |
 | False Negative: 1             |
-|                               |
 | Precision: 1.0                |
 | Recall: 0.9859154929577465    |
 | F1-Score: 0.9929078014184397  |
