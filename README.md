@@ -52,7 +52,8 @@ This project aims to select the best classifier algorithm than can predict wheth
   Random Forest has the best score in all front and especially far ahead in the "Recall" score, which is the most important metric because in the nature of disease prediction model, false negative is the priority to minimize.
  
  # Model Evaluation (Random Forest)
- The random forest classifier model was fit into the dataset without feature elimination and with feature elimination involved to compare the result.
+ The random forest classifier model was fit into the dataset first without feature selection and then with feature selection involved to compare the result. The elimination was based on the chi-squared result and the graph shown earlier
+ 
 |      With All Features        |
 | ---------------------------   |
 | True Positive: 70             |
@@ -60,10 +61,24 @@ This project aims to select the best classifier algorithm than can predict wheth
 | False Positive: 0             |
 | False Negative: 1             |
 | Precision: 1.0                |
-| Recall: 0.9859154929577465    |
-| F1-Score: 0.9929078014184397  |
+| Recall: 0.98                  |
+| F1-Score: 0.99                |
   
-  
+|    With Feature Selection     |
+| ---------------------------   |
+| True Positive: 69             |
+| True Negative: 32             |
+| False Positive: 1             |
+| False Negative: 2             |
+| Precision: 0.98               |
+| Recall: 0.97                  |
+| F1-Score: 0.97                |
+
+The model that involves all features seem already performing super well. Perfect score in "Precision" with 0 False Positive predicted and only 1 False Negative prediction made from the test data. At this point it seemed unlikely to top that result but the feature selection was still applied in the next phase and evaluate against the same test data. The result showed, removing some features could not improve the "Recall" nor any other metrics.
+
+# Conclusion
+ * In this particular dataset, Random Forest is the best classifier algorithm beacuse it delivered the almost perfect result in all metrics, especially "Recall" which    normally be the priority aim for a disease predicton model. 
+ * Feature selection method for this dataset and model is something to be assessed carefully for its further application
   
   
   
