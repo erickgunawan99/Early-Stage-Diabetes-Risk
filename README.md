@@ -48,6 +48,8 @@ This project aims to select the best classifier algorithm than can predict wheth
   | K-Nearest Neighbors | 0.85     | 0.95      | 0.79   | 0.86  |
   | Logistic Regression | 0.91     | 0.95      | 0.91   | 0.93  |
   | Random Forest       | 0.97     | 0.98      | 0.98   | 0.98  |
+  
+  Random Forest has the best score in all front and especially far ahead in the "Recall" score, which is the most important metric because in the nature of disease prediction model, false negative is the priority to minimize.
  
   
   
