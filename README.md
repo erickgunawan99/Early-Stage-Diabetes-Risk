@@ -34,7 +34,8 @@ This project aims to select the best classifier algorithm than can predict wheth
   | Muscle Stiffness     | 0.1    |
   | Alopecia             | 0.0    |
   | Obesity              | 0.25   | 
- ![Age-Class](age-class.png)
+ 
+ ![age](age-class.png)
  
   
   
