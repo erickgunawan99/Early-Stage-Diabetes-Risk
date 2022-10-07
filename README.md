@@ -74,7 +74,7 @@ This project aims to select the best classifier algorithm than can predict wheth
 | Recall: 0.97                  |
 | F1-Score: 0.97                |
 
-The model that involves all features seem already performing super well. Perfect score in "Precision" with 0 False Positive predicted and only 1 False Negative prediction made from the test data. At this point it seemed unlikely to top that result but the feature selection was still applied in the next phase and evaluate against the same test data. The result showed, removing some features could not improve the "Recall" nor any other metrics.
+The model that involves all features seem already performed super well. Perfect score in "Precision" with 0 False Positive predicted and only 1 False Negative prediction made from the test data. At this point it seemed unlikely to top that result but the feature selection was still applied in the next phase and evaluate against the same test data. The result showed, removing some features does not improve the "Recall" nor any other metrics.
 
 # Conclusion
  * In this particular dataset, Random Forest is the best classifier algorithm beacuse it delivered the almost perfect result in all metrics, especially "Recall" which    normally be the priority aim for a disease predicton model. 
