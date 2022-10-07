@@ -57,7 +57,7 @@ This project aims to select the best classifier algorithm than can predict wheth
 | True Negative: 33             |
 | False Positive: 0             |
 | False Negative: 1             |
-|-------------------------------|
+|                               |
 | Precision: 1.0                |
 | Recall: 0.9859154929577465    |
 | F1-Score: 0.9929078014184397  |
