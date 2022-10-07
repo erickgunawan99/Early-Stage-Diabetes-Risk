@@ -51,6 +51,16 @@ This project aims to select the best classifier algorithm than can predict wheth
   
   Random Forest has the best score in all front and especially far ahead in the "Recall" score, which is the most important metric because in the nature of disease prediction model, false negative is the priority to minimize.
  
+ # Model Evaluation (Random Forest)
+ The random forest classifier model was fit into the dataset without feature elimination and with feature elimination involved to compare the result.
+| True Positive: 70             |
+| True Negative: 33             |
+| False Positive: 0             |
+| False Negative: 1             |
+|-------------------------------|
+| Precision: 1.0                |
+| Recall: 0.9859154929577465    |
+| F1-Score: 0.9929078014184397  |
   
   
   
