@@ -15,8 +15,8 @@ This project aims to select the best classifier algorithm than can predict wheth
 * The categorical columns has been encoded accordingly
 
 
-# Features
-* Chi-square method was used to analyse the importance of each categorical columns with respect to the diabetes class column
+# Features Selection
+* Chi-square method was used to analyse the significance of each categorical columns with respect to the diabetes class column
   | Features             | P-Value|
   | -------------        |:------:|
   | Gender               | 0.0    |
@@ -35,7 +35,19 @@ This project aims to select the best classifier algorithm than can predict wheth
   | Alopecia             | 0.0    |
   | Obesity              | 0.25   | 
  
+* Seperate scatter plot to visualize age and diabetes class relationship
+ 
 ![age](age-class-scatter.png)
+
+* "Itching", "Delayed Healing, "Muscle Stiffness", and "Obesity" show insignificant relationship as reflected by the high p-value and "Age" doesn't provide a distinction between the positive and negative diabetic classes.
+
+# Model Selection
+  Three classifier models; Logistic Regression, K-Nearest Neighbors, and Random Forest; were examined using a ten-fold cross validation. 
+  | Models              | Accuracy | Precision | Recall | F1    |
+  | ---------------     | -------- | --------  | ------ | ----- |
+  | K-Nearest Neighbors | 0.85     | 0.95      | 0.79   | 0.86  |
+  | Logistic Regression | 0.91     | 0.95      | 0.91   | 0.93  |
+  | Random Forest       | 0.97     | 0.98      | 0.98   | 0.98  |
  
   
   
