@@ -34,12 +34,30 @@ This project aims to select the best classifier algorithm than can predict wheth
   | Muscle Stiffness     | 0.1    |
   | Alopecia             | 0.0    |
   | Obesity              | 0.25   | 
+  
+  | Features             | Chi2 Score|
+  | -------------        |:------:   |
+  | Gender               |  28.6     |
+  | Polyuria             |  98.3     |
+  | Polydipsia           |  100.8    |
+  | Sudden Weight Loss   | 52.7      |
+  | Weakness             | 9.4       |
+  | Polyphagia           | 20.5      |
+  | Genital Thrush       | 6.08      |
+  | Visual Blurring      | 13.6      |
+  | Itching              | 0.07      |
+  | Irritability         | 29.2      |
+  | Delayed Healing      | 0.36      |
+  | Partial Paresis      | 41.8      |
+  | Muscle Stiffness     | 2.6       |
+  | Alopecia             | 18.4      |
+  | Obesity              | 1.27      | 
  
 * Seperate scatter plot to visualize age and diabetes class relationship
  
 ![age](age-class-scatter.png)
 
-* "Itching", "Delayed Healing, "Muscle Stiffness", and "Obesity" show insignificant relationship as reflected by the high p-value and "Age" doesn't provide a distinction between the positive and negative diabetic classes.
+* "Itching", "Delayed Healing, "Muscle Stiffness", and "Obesity" chi-square scores close to zero indicates there is a high chance that those variables do not have any relationship with the target. Parallel to that, the high p-value explains the insignificant relationship if there is ever a relationship in the sample data. Thoes four variables and "Age" look like they can't provide a distinction between the positive and negative diabetic classes.
 
 # Model Selection
   Three classifier models; Logistic Regression, K-Nearest Neighbors, and Random Forest; were examined using a ten-fold cross validation. 
